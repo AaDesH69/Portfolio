@@ -190,7 +190,7 @@ header {
     margin-top: .4rem;
 }
 
-.header-right .header-action-aria {
+.header-action-aria {
     margin-top: 1rem;
     display: flex;
     gap: 1rem;
@@ -244,10 +244,11 @@ section {
     position: absolute;
     right: 10%;
     transition: var(--transition);
+    margin-top: 1.4rem;
 }
 
 .arrow:hover {
-    margin-top: .5rem;
+    margin-top: 2rem;
 }
 
 .experience-container{
@@ -278,5 +279,23 @@ section {
     display: flex;
     gap: 20px;
 }
-
 /* Experience Section End */
+
+/* Projects Section Start */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    padding: 24px;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+    text-align: center;
+}
+.project img {
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+/* Projects Section End */
