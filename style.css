@@ -242,7 +242,7 @@ section {
 
 .arrow {
     position: absolute;
-    right: 10%;
+    right: 3%;
     transition: var(--transition);
     margin-top: 1.4rem;
 }
@@ -299,3 +299,21 @@ section {
     margin-bottom: 1rem;
 }
 /* Projects Section End */
+
+/* Contact Section Start */
+.contact-container {
+    max-width: 30rem;
+    border: 1px solid var(--color-dark-variant);
+    padding: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email, .linkedin {
+    display: flex;
+    align-items: center;
+    gap: .10rem;
+}
+/* Content Section End */
