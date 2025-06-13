@@ -206,6 +206,10 @@ header {
 /* Header Section End */
 
 /* About Section Start */
+.des {
+    text-align: center;
+}
+
 .about-container {
     display: grid;
     grid-template-columns: 38% auto;
